@@ -11,10 +11,10 @@ package:
 source:
   - folder: {{ pkg_src }}
     url: https://{{ goname }}/archive/{{ version }}.tar.gz
-    sha256: d23f361075454c3a84449d60a6edb72ac10091657ef07d11b9e8ff14270274c0
+    sha256: 6402f352998bfcd3b8700e9771b77ff0bd53197ad035f2b7c615ee65ef874169
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
   script:
     - pushd {{ pkg_src }}
